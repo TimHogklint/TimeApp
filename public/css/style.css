@@ -1,0 +1,112 @@
+@import url("cards.css");
+@import url("citypage.css");
+@import url("clock.css");
+@import url("toggle.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+main{
+  flex: 1;
+}
+
+/* https://www.rapidtables.com/convert/color/hex-to-rgb.html - Ganska bra konvertor från hex(våra trello färgkoder) /Tim */
+.color-nav {
+  background-color: rgb(8, 60, 93);
+}
+
+/* Jag måste säga att det ser inte så bra ut haha , men det kan vi ändra - jag tycker det ser bäst ut med 
+default blå färgen .dvs om man bara tar bort den här css stylingen för header knappen.  /Tim*/
+
+.color-nav .custom-btn {
+  background-image: linear-gradient(#d1d3d3, #083c5d);
+  border-color: silver;
+}
+
+.color-nav .custom-btn:hover {
+  background-image: linear-gradient(#a9acac, #062c44);
+  border-color: rgb(156, 154, 154);
+}
+
+.favoriteSite {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.form input {
+  width: 150px;
+  display: block;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.form select {
+  width: 150px;
+  display: block;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.form {
+  display: inline-block;
+  margin-top: 6%;
+}
+.content-city {
+  color: rgb(255, 255, 255);
+  font-family: "Merriweather";
+  backdrop-filter: blur(80px);
+  font-size: 25px;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.content-city p {
+  margin-top: 100%;
+  display: inline;
+  padding: 0 45px 0 5px;
+}
+.deleteBtn {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  margin-top: 2px;
+}
+
+.favoriteCity {
+  height: 130px;
+}
+.favoriteList {
+  display: inline-block;
+  margin-top: 4%;
+  width: clamp(200px, 100%, 400px);
+  height: 400px;
+  padding: 0.5rem 0.5rem;
+  vertical-align: middle;
+  margin-left: 5%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  overflow-y: scroll;
+}
+
+#root > div{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #083c5d;
+  color: white;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.add-city-button {
+  margin-left: 10px;
+  background-color: rgb(8, 60, 93) !important;
+  border-color: rgb(8, 60, 93) !important;
+}
+
+.add-city-button:hover {
+  background-color: rgb(11, 80, 122) !important;
+  border-color: rgb(11, 80, 122) !important;
+}

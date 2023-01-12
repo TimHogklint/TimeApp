@@ -1,0 +1,46 @@
+.cityBackgroundImg {
+  background-size: cover;
+  min-height: 90vh;
+  text-align: center;
+  margin: 0;
+}
+
+.citypagecontent {
+  margin-top: 30px;
+}
+
+.cityName {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 66px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 2px solid #083c5d;
+}
+
+@media only screen and (max-width: 360px) {
+  .cityName {
+    font-size: 48px;
+  }
+  .digitalClockCityPage p {
+    font-size: 40px;
+  }
+}
+
+.digitalClockCityPage {
+  background-color: rgb(0, 0, 0, 0.3);
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: solid rgb(8, 60, 93) 5px;
+  font-size: 60px;
+  margin-bottom: 154px;
+  margin-top: 40px;
+}
+
+.pageNotFound {
+  text-align: center;
+  margin-top: 40px;
+}
